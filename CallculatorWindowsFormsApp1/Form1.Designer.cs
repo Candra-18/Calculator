@@ -93,16 +93,15 @@
             this.COB1.Name = "COB1";
             this.COB1.Size = new System.Drawing.Size(128, 24);
             this.COB1.TabIndex = 5;
-            this.COB1.SelectedIndexChanged += new System.EventHandler(this.COB1_SelectedIndexChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(28, 47);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(50, 17);
+            this.label3.Size = new System.Drawing.Size(58, 17);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Oprasi";
+            this.label3.Text = "Operasi";
             // 
             // label4
             // 
