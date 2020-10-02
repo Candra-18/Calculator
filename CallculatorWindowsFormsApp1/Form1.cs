@@ -61,5 +61,10 @@ namespace CallculatorWindowsFormsApp1
                 Hasil.Items.Add(string.Format("{2}", a, b, Pembagian(a, b)));
             }
         }
+
+        private void COB1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

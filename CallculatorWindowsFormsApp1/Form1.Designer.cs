@@ -93,6 +93,7 @@
             this.COB1.Name = "COB1";
             this.COB1.Size = new System.Drawing.Size(128, 24);
             this.COB1.TabIndex = 5;
+            this.COB1.SelectedIndexChanged += new System.EventHandler(this.COB1_SelectedIndexChanged);
             // 
             // label3
             // 
