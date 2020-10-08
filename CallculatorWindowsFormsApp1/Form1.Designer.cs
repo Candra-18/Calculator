@@ -88,11 +88,14 @@
             "Penambahan",
             "Pengurangan",
             "Perkalian",
-            "Pembagian"});
+            "Pembagian",
+            "Pangkat ",
+            "Modulo"});
             this.COB1.Location = new System.Drawing.Point(116, 47);
             this.COB1.Name = "COB1";
             this.COB1.Size = new System.Drawing.Size(128, 24);
             this.COB1.TabIndex = 5;
+            this.COB1.SelectedIndexChanged += new System.EventHandler(this.COB1_SelectedIndexChanged_1);
             // 
             // label3
             // 
@@ -121,6 +124,7 @@
             this.Hasil.Name = "Hasil";
             this.Hasil.Size = new System.Drawing.Size(128, 20);
             this.Hasil.TabIndex = 9;
+            this.Hasil.SelectedIndexChanged += new System.EventHandler(this.Hasil_SelectedIndexChanged);
             // 
             // Form1
             // 

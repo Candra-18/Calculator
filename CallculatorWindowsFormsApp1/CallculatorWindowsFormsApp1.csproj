@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CallculatorMachine\CallculatorMachine.csproj">
+      <Project>{d752e204-7496-4ed2-8164-ab73a76c361c}</Project>
+      <Name>CallculatorMachine</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
